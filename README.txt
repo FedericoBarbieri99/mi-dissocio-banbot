@@ -1,0 +1,1 @@
+A simple discord bot that bans people who write 'Mi dissocio'.
