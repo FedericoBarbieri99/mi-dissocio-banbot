@@ -16,9 +16,10 @@ async def on_message(message):
     if message.author == client.user:
         return
     if 'mi dissocio' in message.content.lower():
-        await message.channel.send('oh no, anyways')
+       
         try: 
             await message.author.ban(reason='Meme morto')
+            await message.channel.send('oh no, anyways')
         
         except:
             await message.channel.send('Sei fortunato che non posso bannarti')
